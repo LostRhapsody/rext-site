@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Hero from "../components/Hero";
+import DevelopmentCallout from "../components/DevelopmentCallout";
 import ValueProps from "../components/ValueProps";
 import FeaturesTable from "../components/FeaturesTable";
 import HowItWorks from "../components/HowItWorks";
@@ -7,18 +8,18 @@ import WhyChoose from "../components/WhyChoose";
 import CTA from "../components/CTA";
 
 export const metadata: Metadata = {
-  title: "Rext - The Ultimate Rust Fullstack Framework | Build Modern Web Apps",
-  description: "Discover Rext, the revolutionary Rust fullstack framework that combines Rust's blazing performance with modern JavaScript. Build type-safe, production-ready web applications with zero configuration. The best alternative to Next.js for Rust developers.",
+  title: "Rext - The Future Rust Fullstack Framework | Coming Soon",
+  description: "Rext is an upcoming revolutionary Rust fullstack framework that will combine Rust's blazing performance with modern JavaScript. Our planned framework will enable type-safe, production-ready web applications with zero configuration.",
   openGraph: {
-    title: "Rext - The Ultimate Rust Fullstack Framework",
-    description: "Build modern fullstack apps at the speed of Rust. Zero configuration, end-to-end type safety, blazingly fast performance.",
+    title: "Rext - The Future Rust Fullstack Framework",
+    description: "The future of fullstack development: Rust performance meets modern web development. Currently in development.",
     url: "https://rext.js.org",
     images: [
       {
         url: "/og-home.png",
         width: 1200,
         height: 630,
-        alt: "Rext Homepage - Build Modern Full Stack Apps at the Speed of Rust",
+        alt: "Rext Homepage - The Future of Full Stack Development with Rust",
       },
     ],
   },
@@ -29,6 +30,7 @@ export default function Home() {
     <>
       <main className="max-w-screen-xl mx-auto px-6 py-12">
         <Hero />
+        <DevelopmentCallout />
         <ValueProps />
         <FeaturesTable />
         <HowItWorks />
@@ -43,23 +45,23 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Rext - The Rust Fullstack Framework",
-            "description": "Build modern fullstack applications with Rext, the Rust-powered framework that delivers blazing performance and type safety.",
+            "name": "Rext - The Future Rust Fullstack Framework",
+            "description": "Rext is a planned Rust-powered framework that will deliver blazing performance and type safety for modern fullstack applications.",
             "url": "https://rext.js.org",
             "mainEntity": {
               "@type": "SoftwareApplication",
               "name": "Rext",
               "applicationCategory": "WebFramework",
-              "description": "A fullstack web framework built on Rust with modern frontend tooling support",
+              "description": "A planned fullstack web framework to be built on Rust with modern frontend tooling support",
               "operatingSystem": "Cross-platform",
               "programmingLanguage": ["Rust", "JavaScript"],
               "featureList": [
-                "Zero Configuration",
-                "File-based Routing", 
-                "Type-safe APIs",
-                "Hot Reload",
-                "SSR/SSG Support",
-                "Built-in Middleware"
+                "Planned: Zero Configuration",
+                "Planned: File-based Routing", 
+                "Planned: Type-safe APIs",
+                "Planned: Hot Reload",
+                "Planned: SSR/SSG Support",
+                "Planned: Built-in Middleware"
               ]
             },
             "breadcrumb": {

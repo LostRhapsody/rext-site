@@ -27,10 +27,10 @@ export default function Hero() {
         <div className="space-y-8">
           <div className="space-y-6">
             <h1 className="text-6xl font-bold leading-tight">
-              Build Modern Full Stack Apps at the speed of Rust.
+              The Future of Full Stack Development with Rust
             </h1>
             <p className="text-2xl text-muted-foreground leading-relaxed">
-              Create powerful, production-grade web apps using Rust and JavaScript with zero configuration.
+              We're building a framework that will let you create powerful, production-grade web apps using Rust and JavaScript with zero configuration.
             </p>
           </div>
           
@@ -65,7 +65,7 @@ export default function Hero() {
             </CardHeader>
             <CardContent>
               <pre className="text-sm font-mono text-foreground">
-{`// example code
+{`// planned API example
 use rext::prelude::*;
 #[rext::main]
 async fn main() {

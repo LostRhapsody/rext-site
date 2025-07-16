@@ -5,9 +5,9 @@ export default function ValueProps() {
   return (
     <section className="my-40">
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-bold mb-6">Rext comes fully loaded</h2>
+        <h2 className="text-5xl font-bold mb-6">Rext will come fully loaded</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          The perfect blend of Rust&apos;s performance and modern web development practices
+          We're designing the perfect blend of Rust&apos;s performance and modern web development practices
         </p>
       </div>
       
@@ -28,14 +28,14 @@ export default function ValueProps() {
                 <Terminal className="h-5 w-5 text-muted-foreground mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold mb-2">Zero Configuration</h4>
-                  <p className="text-muted-foreground">Start your project instantly with sensible defaults and automatic setup.</p>
+                  <p className="text-muted-foreground">You'll be able to start projects instantly with sensible defaults and automatic setup.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Code className="h-5 w-5 text-muted-foreground mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold mb-2">CLI & Codegen</h4>
-                  <p className="text-muted-foreground">Focus on features, not boilerplate. Generate types, routes, and more automatically.</p>
+                  <p className="text-muted-foreground">Focus on features, not boilerplate. We'll generate types, routes, and more automatically.</p>
                 </div>
               </div>
             </div>
@@ -56,15 +56,15 @@ export default function ValueProps() {
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold mb-2">Rust Backend</h4>
-                <p className="text-sm text-muted-foreground">Type-safe, blazingly fast APIs with memory safety.</p>
+                <p className="text-sm text-muted-foreground">Type-safe, Memory-safe, Blazing fast APIs.</p>
               </div>
               <div>
                 <h4 className="font-semibold mb-2">JS Frontend</h4>
-                <p className="text-sm text-muted-foreground">Leverage React, Vue, or your favorite framework.</p>
+                <p className="text-sm text-muted-foreground">Support React, Vue, and your favorite frameworks.</p>
               </div>
               <div>
                 <h4 className="font-semibold mb-2">Unified DX</h4>
-                <p className="text-sm text-muted-foreground">Full stack development with one command.</p>
+                <p className="text-sm text-muted-foreground">Full stack development with one utility.</p>
               </div>
             </div>
           </CardContent>
@@ -92,7 +92,7 @@ export default function ValueProps() {
               </div>
               <div>
                 <h4 className="font-semibold mb-2">File-based Routing</h4>
-                <p className="text-sm text-muted-foreground">Intuitive organization that scales.</p>
+                <p className="text-sm text-muted-foreground">Intuitive organization that will scale with your project.</p>
               </div>
             </div>
           </CardContent>
@@ -105,22 +105,22 @@ export default function ValueProps() {
               <div className="p-2 bg-primary/10 rounded-lg">
                 <Rocket className="h-6 w-6 text-primary" />
               </div>
-              <CardTitle className="text-2xl">Production Ready</CardTitle>
+              <CardTitle className="text-2xl">Planned for Production</CardTitle>
             </div>
           </CardHeader>
           <CardContent className="h-full">
             <div className="grid md:grid-cols-3 gap-4 h-3/4 items-center">
               <div className="text-center">
-                <div className="text-5xl font-bold text-primary mb-1">10x</div>
-                <div className="text-sm text-muted-foreground">Faster than Node.js</div>
+                <div className="text-5xl font-bold text-primary mb-1">⚡</div>
+                <div className="text-sm text-muted-foreground">Built for high performance with Rust and Axum</div>
               </div>
               <div className="text-center">
-                <div className="text-5xl font-bold text-primary mb-1">0</div>
-                <div className="text-sm text-muted-foreground">Runtime errors</div>
+                <div className="text-5xl font-bold text-primary mb-1">🛡️</div>
+                <div className="text-sm text-muted-foreground">Type safety and reliability are core priorities</div>
               </div>
               <div className="text-center">
-                <div className="text-5xl font-bold text-primary mb-1">∞</div>
-                <div className="text-sm text-muted-foreground">Scalability</div>
+                <div className="text-5xl font-bold text-primary mb-1">🌐</div>
+                <div className="text-sm text-muted-foreground">Designed to scale with your project and team</div>
               </div>
             </div>
           </CardContent>

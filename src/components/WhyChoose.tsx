@@ -6,20 +6,20 @@ export default function WhyChoose() {
     {
       icon: Gauge,
       title: "Lightning Speed",
-      description: "Rust's performance with modern JS ergonomics",
-      highlight: "10x faster execution"
+      description: "Rust's performance will meet modern JS ergonomics",
+      highlight: "Target: Fastest batteries included framework"
     },
     {
       icon: Heart,
       title: "Developer First",
-      description: "All the batteries you expect, and more",
-      highlight: "Zero configuration"
+      description: "Will include all the features you expect, and more",
+      highlight: "Goal: Zero config"
     },
     {
       icon: Shield,
       title: "End-to-End Power",
-      description: "Best practices built in; scalability from day one",
-      highlight: "Type-safe throughout"
+      description: "Best practices will be built in, full control over your whole stack",
+      highlight: "Goal: Type-safe throughout"
     },
     {
       icon: Users,
@@ -34,7 +34,7 @@ export default function WhyChoose() {
       <div className="text-center mb-16">
         <h2 className="text-5xl font-bold mb-6">Why Choose Rext?</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          The future of full-stack development is here
+          The future of full-stack development is coming
         </p>
       </div>
       

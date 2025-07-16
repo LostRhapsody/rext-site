@@ -10,8 +10,15 @@ export default function Navbar() {
           {/* Left side - Logo */}
           <div className="flex items-center">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center">
-                <span className="text-primary font-bold text-sm">R</span>
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center">
+                <img
+                  src="/favicon.svg"
+                  alt="Rext Logo"
+                  className="w-6 h-6"
+                  width={24}
+                  height={24}
+                  style={{ display: "block" }}
+                />
               </div>
               <span className="font-bold text-lg">Rext</span>
             </div>

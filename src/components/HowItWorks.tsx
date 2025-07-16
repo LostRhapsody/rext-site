@@ -7,38 +7,38 @@ export default function HowItWorks() {
       number: "01",
       icon: Terminal,
       title: "Create Your App",
-      command: "npm create rext@latest",
-      description: "Scaffold a full-stack app with a single command. Includes ready-to-go Rust backend & JS frontend with zero configuration."
+      command: "create rext-app TBD",
+      description: "Will scaffold a full-stack app with a single command. Will include ready-to-go Rust backend & JS frontend with zero configuration."
     },
     {
       number: "02", 
       icon: FolderOpen,
       title: "Build Your Pages",
       command: "pages/",
-      description: "Drop in .rs or .tsx files—Rext handles routing, API glue, data sharing. Your file structure becomes your route structure."
+      description: "Rext will handle routing, API glue, and data sharing. Your file structure will become your route structure."
     },
     {
       number: "03",
       icon: Zap,
       title: "Develop Fast",
-      command: "npm run dev",
-      description: "Hot reload with live updates for both Rust and JS code on save. See changes instantly across your entire stack."
+      command: "rext dev TBD",
+      description: "Planned hot reload with live updates for both Rust and JS code on save. You'll see changes instantly across your entire stack."
     },
     {
       number: "04",
       icon: Cog,
       title: "Deploy Anywhere",
-      command: "npm run build",
-      description: "Automatic builds with assets optimized, routes generated, APIs bound and types propagated. Ready for production."
+      command: "rext build TBD",
+      description: "Automatic builds will optimize assets, generate routes, bind APIs and propagate types to be ready for production."
     }
   ];
 
   return (
     <section className="my-40">
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-bold mb-6">How It Works</h2>
+        <h2 className="text-5xl font-bold mb-6">How It Will Work</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          From zero to production in four simple steps
+          Our planned workflow: from zero to production in four simple steps
         </p>
       </div>
       
