@@ -12,7 +12,7 @@ export default function CTA() {
               Ready to build the future?
             </h2>
             <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
-              Join developers who are already building blazingly fast, type-safe applications with Rext.js. 
+              Join developers who are already building blazingly fast, type-safe applications with Rext. 
               Experience the perfect fusion of Rust's performance and modern web development.
             </p>
             

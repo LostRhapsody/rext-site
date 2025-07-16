@@ -15,7 +15,7 @@ export default function HowItWorks() {
       icon: FolderOpen,
       title: "Build Your Pages",
       command: "pages/",
-      description: "Drop in .rs or .tsx files—Rext.js handles routing, API glue, data sharing. Your file structure becomes your route structure."
+      description: "Drop in .rs or .tsx files—Rext handles routing, API glue, data sharing. Your file structure becomes your route structure."
     },
     {
       number: "03",

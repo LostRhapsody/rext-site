@@ -3,7 +3,7 @@
 ## Goal of the website
 This is a landing page website for a new Full stack web framework built on Rust with modern front-end tooling and framework support.
 
-Rext.js addresses the growing need for a cohesive, batteries-included full-stack framework in the Rust ecosystem. While Rust has excellent individual web components like Axum, Actix-web, and emerging frameworks like Loco, there's a significant gap for a framework that provides the same level of integrated developer experience as Next.js, Nuxt, or SvelteKit but with Rust's performance benefits.
+Rext addresses the growing need for a cohesive, batteries-included full-stack framework in the Rust ecosystem. While Rust has excellent individual web components like Axum, Actix-web, and emerging frameworks like Loco, there's a significant gap for a framework that provides the same level of integrated developer experience as Next.js, Nuxt, or SvelteKit but with Rust's performance benefits.
 
 The framework aims to bridge the gap between Rust's powerful backend capabilities and modern frontend development practices, offering opinionated defaults while maintaining the flexibility that developers expect from both ecosystems.
 

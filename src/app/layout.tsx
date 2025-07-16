@@ -6,8 +6,8 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rext.js - The Rust Fullstack Framework for Modern Web Development",
-  description: "Rext.js is the ultimate Rust fullstack framework combining Rust's performance with modern JavaScript. Build blazingly fast, type-safe web applications with zero configuration. The Next.js for Rust developers.",
+  title: "Rext - The Rust Fullstack Framework for Modern Web Development",
+  description: "Rext is the ultimate Rust fullstack framework combining Rust's performance with modern JavaScript. Build blazingly fast, type-safe web applications with zero configuration. The Next.js for Rust developers.",
   keywords: [
     "Rust fullstack framework",
     "Rust web framework", 
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     "modern Rust framework",
     "Rust Next.js alternative"
   ],
-  authors: [{ name: "Rext.js Team" }],
-  creator: "Rext.js",
-  publisher: "Rext.js",
+  authors: [{ name: "Rext Team" }],
+  creator: "Rext",
+  publisher: "Rext",
   robots: {
     index: true,
     follow: true,
@@ -38,15 +38,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://rext.js.org",
-    siteName: "Rext.js",
-    title: "Rext.js - The Rust Fullstack Framework",
+    siteName: "Rext",
+    title: "Rext - The Rust Fullstack Framework",
     description: "Build modern fullstack apps at the speed of Rust. Zero configuration, type-safe, blazingly fast web development with Rust backend and JavaScript frontend.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Rext.js - The Rust Fullstack Framework",
+        alt: "Rext - The Rust Fullstack Framework",
         type: "image/png",
       },
     ],
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@rextjs",
     creator: "@rextjs",
-    title: "Rext.js - The Rust Fullstack Framework",
+    title: "Rext - The Rust Fullstack Framework",
     description: "Build modern fullstack apps at the speed of Rust. Zero configuration, type-safe, blazingly fast.",
     images: ["/twitter-image.png"],
   },
@@ -87,7 +87,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "Rext.js",
+              "name": "Rext",
               "description": "The Rust fullstack framework for modern web development. Build blazingly fast, type-safe applications with zero configuration.",
               "url": "https://rext.js.org",
               "applicationCategory": "DeveloperApplication",
@@ -100,7 +100,7 @@ export default function RootLayout({
               },
               "author": {
                 "@type": "Organization",
-                "name": "Rext.js Team"
+                "name": "Rext Team"
               },
               "keywords": "Rust fullstack framework, web development, type-safe, performance, zero configuration"
             })

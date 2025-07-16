@@ -13,7 +13,7 @@ export default function Navbar() {
               <div className="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center">
                 <span className="text-primary font-bold text-sm">R</span>
               </div>
-              <span className="font-bold text-lg">Rext.js</span>
+              <span className="font-bold text-lg">Rext</span>
             </div>
           </div>    
 

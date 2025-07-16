@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Rext.js - The Rust Fullstack Framework',
-    short_name: 'Rext.js',
+    name: 'Rext - The Rust Fullstack Framework',
+    short_name: 'Rext',
     description: 'Build modern fullstack apps at the speed of Rust',
     start_url: '/',
     display: 'standalone',

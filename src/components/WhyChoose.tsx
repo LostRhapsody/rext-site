@@ -32,7 +32,7 @@ export default function WhyChoose() {
   return (
     <section className="my-40">
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-bold mb-6">Why Choose Rext.js?</h2>
+        <h2 className="text-5xl font-bold mb-6">Why Choose Rext?</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           The future of full-stack development is here
         </p>

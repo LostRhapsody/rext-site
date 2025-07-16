@@ -5,7 +5,7 @@ export default function ValueProps() {
   return (
     <section className="my-40">
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-bold mb-6">Rext.js comes fully loaded</h2>
+        <h2 className="text-5xl font-bold mb-6">Rext comes fully loaded</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           The perfect blend of Rust's performance and modern web development practices
         </p>

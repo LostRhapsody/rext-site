@@ -65,8 +65,8 @@ export default function Hero() {
             </CardHeader>
             <CardContent>
               <pre className="text-sm font-mono text-foreground">
-{`use rext::prelude::*;
-// example code, not actual code
+{`// example code
+use rext::prelude::*;
 #[rext::main]
 async fn main() {
     let app = App::new()
