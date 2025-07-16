@@ -3,7 +3,7 @@ import { Zap, Layers, Sparkles, Terminal, Code, Rocket } from "lucide-react";
 
 export default function ValueProps() {
   return (
-    <section className="mb-20">
+    <section className="my-40">
       <div className="text-center mb-16">
         <h2 className="text-5xl font-bold mb-6">Why Choose Rext.js?</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

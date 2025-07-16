@@ -1,7 +1,6 @@
 import Hero from "../components/Hero";
 import ValueProps from "../components/ValueProps";
 import FeaturesTable from "../components/FeaturesTable";
-import ComparisonTable from "../components/ComparisonTable";
 import HowItWorks from "../components/HowItWorks";
 import WhyChoose from "../components/WhyChoose";
 import CTA from "../components/CTA";
@@ -12,7 +11,6 @@ export default function Home() {
       <Hero />
       <ValueProps />
       <FeaturesTable />
-      <ComparisonTable />
       <HowItWorks />
       <WhyChoose />
       <CTA />
