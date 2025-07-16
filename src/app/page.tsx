@@ -8,7 +8,7 @@ import CTA from "../components/CTA";
 
 export default function Home() {
   return (
-    <main className="max-w-7xl mx-auto px-4 py-8">
+    <main className="max-w-screen-xl mx-auto px-6 py-12">
       <Hero />
       <ValueProps />
       <FeaturesTable />
