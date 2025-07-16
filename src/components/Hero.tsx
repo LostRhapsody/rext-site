@@ -7,7 +7,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export default function Hero() {
   const [copied, setCopied] = useState(false);
   
-  const command = "npm create rext@latest";
+  // const command = "npm create rext@latest";
+  const command = "create rext-app TBD";
   
   const copyToClipboard = async () => {
     try {
@@ -34,8 +35,8 @@ export default function Hero() {
           </div>
           
           <div className="space-y-4">
-            <Button size="lg" className="text-lg px-8 py-4 h-auto w-full">
-              Get Started
+            <Button size="lg" className="text-lg px-8 py-4 h-auto w-full" disabled>
+              Coming Soon
             </Button>
             
             <div className="bg-card border rounded-lg p-4 flex items-center justify-between">

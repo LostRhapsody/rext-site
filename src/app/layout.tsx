@@ -6,8 +6,66 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rext.js - Rust-Powered Full-Stack Web Framework",
-  description: "Build modern full-stack apps with Rust and JavaScript, inspired by Next.js and Nuxt.",
+  title: "Rext.js - The Rust Fullstack Framework for Modern Web Development",
+  description: "Rext.js is the ultimate Rust fullstack framework combining Rust's performance with modern JavaScript. Build blazingly fast, type-safe web applications with zero configuration. The Next.js for Rust developers.",
+  keywords: [
+    "Rust fullstack framework",
+    "Rust web framework", 
+    "fullstack Rust",
+    "Rust JavaScript framework",
+    "fast web framework",
+    "type-safe web development",
+    "Rust backend JavaScript frontend",
+    "zero configuration framework",
+    "modern Rust framework",
+    "Rust Next.js alternative"
+  ],
+  authors: [{ name: "Rext.js Team" }],
+  creator: "Rext.js",
+  publisher: "Rext.js",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://rext.js.org",
+    siteName: "Rext.js",
+    title: "Rext.js - The Rust Fullstack Framework",
+    description: "Build modern fullstack apps at the speed of Rust. Zero configuration, type-safe, blazingly fast web development with Rust backend and JavaScript frontend.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Rext.js - The Rust Fullstack Framework",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rextjs",
+    creator: "@rextjs",
+    title: "Rext.js - The Rust Fullstack Framework",
+    description: "Build modern fullstack apps at the speed of Rust. Zero configuration, type-safe, blazingly fast.",
+    images: ["/twitter-image.png"],
+  },
+  alternates: {
+    canonical: "https://rext.js.org",
+  },
+  other: {
+    "theme-color": "#000000",
+    "color-scheme": "dark",
+  },
 };
 
 export default function RootLayout({
@@ -17,6 +75,45 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        {/* Additional SEO meta tags */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="format-detection" content="telephone=no" />
+        
+        {/* Structured Data for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Rext.js",
+              "description": "The Rust fullstack framework for modern web development. Build blazingly fast, type-safe applications with zero configuration.",
+              "url": "https://rext.js.org",
+              "applicationCategory": "DeveloperApplication",
+              "operatingSystem": "Cross-platform",
+              "programmingLanguage": ["Rust", "JavaScript", "TypeScript"],
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              },
+              "author": {
+                "@type": "Organization",
+                "name": "Rext.js Team"
+              },
+              "keywords": "Rust fullstack framework, web development, type-safe, performance, zero configuration"
+            })
+          }}
+        />
+        
+        {/* Favicon and app icons */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </head>
       <body className={`${inter.className} antialiased`}>
         <Navbar />
         {children}
