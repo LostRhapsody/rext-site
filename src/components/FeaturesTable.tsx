@@ -1,52 +1,89 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { 
+  FolderTree, 
+  Download, 
+  Monitor, 
+  CloudUpload, 
+  Image, 
+  Shield, 
+  Settings, 
+  Puzzle 
+} from "lucide-react";
+
 export default function FeaturesTable() {
-    return (
-      <section className="mb-16">
-        <h2 className="text-4xl font-bold mb-12 text-center">Core Features</h2>
-        <div className="overflow-x-auto">
-          <table className="min-w-full bg-gray-800 border border-gray-700">
-            <thead>
-              <tr className="bg-gray-900">
-                <th className="py-4 px-6 text-left font-semibold text-gray-100">Feature</th>
-                <th className="py-4 px-6 text-left font-semibold text-gray-100">What You Get</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">File-based Routing</td>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Page structure matches your file structure</td>
-              </tr>
-              <tr>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Modular Data Fetching</td>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Universal fetching for backend/frontend</td>
-              </tr>
-              <tr>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Rendering Modes</td>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">SSR, SSG, or client—your choice per page</td>
-              </tr>
-              <tr>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Seamless Deployment</td>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Deploy anywhere, from edge to serverless</td>
-              </tr>
-              <tr>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Asset Optimization</td>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Built-in image/font optimization</td>
-              </tr>
-              <tr>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Auto Imports & Type Safety</td>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Minimal imports, instant type errors</td>
-              </tr>
-              <tr>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Built-in Middleware</td>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Auth, logging, A/B—all first-class</td>
-              </tr>
-              <tr>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Plugin Ecosystem</td>
-                <td className="py-4 px-6 border-t border-gray-700 text-gray-100">Extend with ready-made modules</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-    );
-  }
+  const features = [
+    {
+      icon: FolderTree,
+      title: "File-based Routing",
+      description: "Page structure matches your file structure"
+    },
+    {
+      icon: Download,
+      title: "Modular Data Fetching",
+      description: "Universal fetching for backend/frontend"
+    },
+    {
+      icon: Monitor,
+      title: "Rendering Modes",
+      description: "SSR, SSG, or client—your choice per page"
+    },
+    {
+      icon: CloudUpload,
+      title: "Seamless Deployment",
+      description: "Deploy anywhere, from edge to serverless"
+    },
+    {
+      icon: Image,
+      title: "Asset Optimization",
+      description: "Built-in image/font optimization"
+    },
+    {
+      icon: Shield,
+      title: "Auto Imports & Type Safety",
+      description: "Minimal imports, instant type errors"
+    },
+    {
+      icon: Settings,
+      title: "Built-in Middleware",
+      description: "Auth, logging, A/B—all first-class"
+    },
+    {
+      icon: Puzzle,
+      title: "Plugin Ecosystem",
+      description: "Extend with ready-made modules"
+    }
+  ];
+
+  return (
+    <section className="mb-20">
+      <div className="text-center mb-16">
+        <h2 className="text-5xl font-bold mb-6">Core Features</h2>
+        <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          Everything you need to build modern web applications, built-in
+        </p>
+      </div>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {features.map((feature, index) => {
+          const IconComponent = feature.icon;
+          return (
+            <Card key={index} className="border-0 bg-transparent hover:bg-card/50 transition-colors duration-200">
+              <CardContent className="p-6 text-center">
+                <div className="flex justify-center mb-4">
+                  <div className="p-3 bg-primary/10 rounded-xl">
+                    <IconComponent className="h-6 w-6 text-primary" />
+                  </div>
+                </div>
+                <h3 className="font-semibold mb-2 text-lg">{feature.title}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {feature.description}
+                </p>
+              </CardContent>
+            </Card>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
   
