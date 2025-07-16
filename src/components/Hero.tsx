@@ -30,7 +30,7 @@ export default function Hero() {
               The Future of Full Stack Development with Rust
             </h1>
             <p className="text-2xl text-muted-foreground leading-relaxed">
-              We're building a framework that will let you create powerful, production-grade web apps using Rust and JavaScript with zero configuration.
+              We&apos;re building a framework that will let you create powerful, production-grade web apps using Rust and JavaScript with zero configuration.
             </p>
           </div>
           

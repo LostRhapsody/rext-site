@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Github, BookOpen, Users } from "lucide-react";
+import { BookOpen, Users } from "lucide-react";
 
 export default function CTA() {
   return (
@@ -13,7 +13,7 @@ export default function CTA() {
             </h2>
             <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
               Get ready to be a part of a community of developers excited about building type-safe, memory-safe, and fast by default applications with Rext. 
-              We're creating the ideal fusion of Rust&apos;s performance and modern web development.
+              We&apos;re creating the ideal fusion of Rust&apos;s performance and modern web development.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

@@ -7,7 +7,7 @@ export default function ValueProps() {
       <div className="text-center mb-16">
         <h2 className="text-5xl font-bold mb-6">Rext will come fully loaded</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          We're designing the perfect blend of Rust&apos;s performance and modern web development practices
+          We&apos;re designing the perfect blend of Rust&apos;s performance and modern web development practices
         </p>
       </div>
       
@@ -28,14 +28,14 @@ export default function ValueProps() {
                 <Terminal className="h-5 w-5 text-muted-foreground mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold mb-2">Zero Configuration</h4>
-                  <p className="text-muted-foreground">You'll be able to start projects instantly with sensible defaults and automatic setup.</p>
+                  <p className="text-muted-foreground">You&apos;ll be able to start projects instantly with sensible defaults and automatic setup.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Code className="h-5 w-5 text-muted-foreground mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold mb-2">CLI & Codegen</h4>
-                  <p className="text-muted-foreground">Focus on features, not boilerplate. We'll generate types, routes, and more automatically.</p>
+                  <p className="text-muted-foreground">Focus on features, not boilerplate. We&apos;ll generate types, routes, and more automatically.</p>
                 </div>
               </div>
             </div>
