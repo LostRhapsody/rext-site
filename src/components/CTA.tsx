@@ -13,7 +13,7 @@ export default function CTA() {
             </h2>
             <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
               Join developers who are already building blazingly fast, type-safe applications with Rext. 
-              Experience the perfect fusion of Rust's performance and modern web development.
+              Experience the perfect fusion of Rust&apos;s performance and modern web development.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -53,7 +53,7 @@ export default function CTA() {
         <p className="text-muted-foreground">
           Built with the same passion, polish, and philosophy as the frameworks that inspired us. 
           <br />
-          <span className="text-primary font-medium">Let's build the future of Rust web together!</span>
+          <span className="text-primary font-medium">Let&apos;s build the future of Rust web together!</span>
         </p>
       </div>
     </section>
