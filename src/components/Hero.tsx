@@ -26,8 +26,7 @@ export default function Hero() {
         <div className="space-y-8">
           <div className="space-y-6">
             <h1 className="text-6xl font-bold leading-tight">
-              Build Modern Full Stack Apps. 
-              <span className="text-primary"> Rust Fast.</span>
+              Build Modern Full Stack Apps at the speed of Rust.
             </h1>
             <p className="text-2xl text-muted-foreground leading-relaxed">
               Create powerful, production-grade web apps using Rust and JavaScript with zero configuration.
@@ -35,7 +34,7 @@ export default function Hero() {
           </div>
           
           <div className="space-y-4">
-            <Button size="lg" className="text-lg px-8 py-6 h-auto">
+            <Button size="lg" className="text-lg px-8 py-4 h-auto w-full">
               Get Started
             </Button>
             
@@ -66,7 +65,7 @@ export default function Hero() {
             <CardContent>
               <pre className="text-sm font-mono text-foreground">
 {`use rext::prelude::*;
-
+// example code, not actual code
 #[rext::main]
 async fn main() {
     let app = App::new()
