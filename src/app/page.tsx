@@ -5,6 +5,7 @@ import ValueProps from "../components/ValueProps";
 import FeaturesTable from "../components/FeaturesTable";
 import HowItWorks from "../components/HowItWorks";
 import WhyChoose from "../components/WhyChoose";
+import Contribute from "../components/Contribute";
 import CTA from "../components/CTA";
 
 export const metadata: Metadata = {
@@ -35,9 +36,10 @@ export default function Home() {
         <FeaturesTable />
         <HowItWorks />
         <WhyChoose />
+        <Contribute />
         <CTA />
       </main>
-      
+
       {/* Additional structured data for homepage */}
       <script
         type="application/ld+json"
@@ -57,7 +59,7 @@ export default function Home() {
               "programmingLanguage": ["Rust", "JavaScript"],
               "featureList": [
                 "Planned: Zero Configuration",
-                "Planned: File-based Routing", 
+                "Planned: File-based Routing",
                 "Planned: Type-safe APIs",
                 "Planned: Hot Reload",
                 "Planned: SSR/SSG Support",

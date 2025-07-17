@@ -6,10 +6,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Hero() {
   const [copied, setCopied] = useState(false);
-  
+
   // const command = "npm create rext@latest";
   const command = "create rext-app TBD";
-  
+
   const copyToClipboard = async () => {
     try {
       await navigator.clipboard.writeText(command);
@@ -21,7 +21,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-12 md:py-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left Side - Title, Subtitle, Button and Command */}
         <div className="space-y-8">
@@ -33,12 +33,12 @@ export default function Hero() {
               We&apos;re building a framework that will let you create powerful, production-grade web apps using Rust and JavaScript with zero configuration.
             </p>
           </div>
-          
+
           <div className="space-y-4">
             <Button size="lg" className="text-lg px-8 py-4 h-auto w-full" disabled>
               Coming Soon
             </Button>
-            
+
             <div className="bg-card border rounded-lg p-4 flex items-center justify-between">
               <code className="text-sm font-mono text-muted-foreground">
                 {command}
@@ -72,7 +72,7 @@ async fn main() {
     let app = App::new()
         .route("/", get(hello))
         .route("/api/users", get(get_users));
-    
+
     app.serve("127.0.0.1:3000").await
 }
 
@@ -94,4 +94,3 @@ async fn get_users() -> Json<Vec<User>> {
     </section>
   );
 }
-  
