@@ -9,8 +9,8 @@ export default function DevelopmentCallout() {
           <div className="flex items-center gap-3 text-center justify-center">
             <AlertTriangle className="h-5 w-5 text-orange-500 dark:text-orange-400 flex-shrink-0" />
             <p className="text-orange-900 dark:text-orange-100 font-medium">
-              <strong>Development Notice:</strong> Rext is under heavy initial development and planning and is not ready for use.
-              The features showcased on this site represent our planned capabilities and roadmap.
+              <strong>Notice:</strong> Rext is under heavy initial development and planning and is not ready for use.
+              The features showcased on this site represent our planned capabilities and roadmap, and are not guaranteed.
             </p>
           </div>
         </CardContent>

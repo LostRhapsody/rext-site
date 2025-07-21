@@ -5,36 +5,36 @@ export default function WhyChoose() {
   const reasons = [
     {
       icon: Gauge,
-      title: "Lightning Speed",
-      description: "Rust's performance will meet modern JS ergonomics",
-      highlight: "Target: Fastest batteries included framework"
+      title: "No sacrifice on speed",
+      description: "A batteries included fullstack framework, no impact on speed.",
+      highlight: "Zero Tradeoffs"
     },
     {
       icon: Heart,
       title: "Developer First",
-      description: "Will include all the features you expect, and more",
-      highlight: "Goal: Zero config"
+      description: "Rext prioritizes offering best-in-class DX",
+      highlight: "Zero Config, Zero Worries"
     },
     {
       icon: Shield,
-      title: "End-to-End Power",
-      description: "Best practices will be built in, full control over your whole stack",
-      highlight: "Goal: Type-safe throughout"
+      title: "End-to-End",
+      description: "Type and Memory safe, secure by default, Rext streamlines operating the entire stack",
+      highlight: "Zero Compromises On Safety"
     },
     {
       icon: Users,
       title: "Open Source",
-      description: "Powered by a passionate community—yours to extend",
-      highlight: "Community driven"
+      description: "Rext is fully out in the open, no walled gardens, only community",
+      highlight: "Zero Corporate Negligence"
     }
   ];
 
   return (
     <section className="my-40">
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-bold mb-6">Why Choose Rext?</h2>
+        <h2 className="text-5xl font-bold mb-6">Another Framework?</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          The future of full-stack development is coming
+          Yes, another framework. Why choose Rext over the rest?
         </p>
       </div>
       

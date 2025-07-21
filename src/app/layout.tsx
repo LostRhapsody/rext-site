@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rextstack.org"),
   title: "Rext - The Rust Fullstack Framework for Modern Web Development",
   description: "Rext is the ultimate Rust fullstack framework combining Rust's performance with modern JavaScript. Build blazingly fast, type-safe web applications with zero configuration. The Next.js for Rust developers.",
   keywords: [

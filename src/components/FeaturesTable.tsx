@@ -1,11 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { 
-  FolderTree, 
   Download, 
-  Monitor, 
   CloudUpload, 
   Image, 
-  Shield, 
   Settings, 
   Puzzle,
   User,
@@ -22,42 +19,32 @@ export default function FeaturesTable() {
     {
       icon: Settings,
       title:"Zero Configuration",
-      description: "No need to configure anything, just start building"
+      description: "Sane defaults to get rolling fast"
     },
     {
       icon: User,
       title: "Auth",
-      description: "Built-in authentication and authorization with JWT and OAuth"
+      description: "Simplify user management with secure authorization"
     },
     {
       icon: Code,
       title: "Type-safe",
-      description: "Type-safe from the ground up"
+      description: "End-to-End Type-Safety, zero surprises"
     },
     {
       icon: MemoryStick,
       title: "Memory-safe",
-      description: "Memory-safe from the ground up"
+      description: "First-class memory-safety means no memory leaks and lean backends, getting you more performance for less"
     },
     {
       icon: Database,
-      title: "Database Support",
-      description: "First-class support for databases"
-    },
-    {
-      icon: FolderTree,
-      title: "File-based Routing",
-      description: "Page structure matches your file structure"
+      title: "Database",
+      description: "Spin up MySQL, Postgresql, or Sqlite with your project and start building schema right away"
     },
     {
       icon: Download,
-      title: "Modular Data Fetching",
-      description: "Universal fetching for backend/frontend"
-    },
-    {
-      icon: Monitor,
-      title: "Rendering Modes",
-      description: "SSR, SSG, or client—your choice per page"
+      title: "Intuitive data-fetching APIs",
+      description: "Fetch data with APIs designed to be intuitive on the front and backend"
     },
     {
       icon: CloudUpload,
@@ -67,46 +54,41 @@ export default function FeaturesTable() {
     {
       icon: Image,
       title: "Asset Optimization",
-      description: "Built-in image/font optimization"
-    },
-    {
-      icon: Shield,
-      title: "Auto Imports & Type Safety",
-      description: "Minimal imports, instant type errors"
+      description: "Optimize assets for lean packages when it's time to release"
     },
     {
       icon: Settings,
       title: "Middleware",
-      description: "Auth, logging, A/B—all first-class"
+      description: "Powerful middleware thanks to Axum with pre-build, modular options available"
     },
     {
       icon: Mail,
       title: "Email Support",
-      description: "Built-in support for sending emails"
+      description: "Send emails with minimal set up, no more third-party email libraries"
     },
     {
       icon: Send,
       title: "Job Queue",
-      description: "Built-in support for job queuing"
+      description: "Queue up jobs to process in the background"
     },
     {
       icon: Clock,
       title: "Task Scheduling",
-      description: "Built-in support for scheduling tasks"
+      description: "Schedule tasks fast, easy, and programmatically, no crons required"
     },
     {
       icon: Puzzle,
       title: "Modular",
-      description: "Extend with ready-made modules"
+      description: "Modular by default, with lots of first-class and community built modules planned"
     }
   ];
 
   return (
     <section className="my-40">
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-bold mb-6">Core Features</h2>
+        <h2 className="text-5xl font-bold mb-6">Features</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          Everything you need to build modern web applications, built-in
+          Everything built-in with first-class DX
         </p>
       </div>
       

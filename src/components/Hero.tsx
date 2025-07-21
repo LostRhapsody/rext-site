@@ -8,7 +8,7 @@ export default function Hero() {
   const [copied, setCopied] = useState(false);
 
   // const command = "npm create rext@latest";
-  const command = "create rext-app TBD";
+  const command = "rext new my-app";
 
   const copyToClipboard = async () => {
     try {
@@ -27,16 +27,16 @@ export default function Hero() {
         <div className="space-y-8">
           <div className="space-y-6">
             <h1 className="text-6xl font-bold leading-tight">
-              The Future of Full Stack Development with Rust
+              A fullstack and batteries included Rust framework.
             </h1>
             <p className="text-2xl text-muted-foreground leading-relaxed">
-              We&apos;re building a framework that will let you create powerful, production-grade web apps using Rust and JavaScript with zero configuration.
+              Zero-config, everything you need, production ready and Rust powered.
             </p>
           </div>
 
           <div className="space-y-4">
             <Button size="lg" className="text-lg px-8 py-4 h-auto w-full" disabled>
-              Coming Soon
+              Get Started (Coming Soon)
             </Button>
 
             <div className="bg-card border rounded-lg p-4 flex items-center justify-between">

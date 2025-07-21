@@ -5,9 +5,9 @@ export default function ValueProps() {
   return (
     <section className="my-40">
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-bold mb-6">Rext will come fully loaded</h2>
+        <h2 className="text-5xl font-bold mb-6">Rext offers instant productivity</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          We&apos;re designing the perfect blend of Rust&apos;s performance and modern web development practices
+          Modern web development with all the benefits of Rust.
         </p>
       </div>
       
@@ -28,14 +28,14 @@ export default function ValueProps() {
                 <Terminal className="h-5 w-5 text-muted-foreground mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold mb-2">Zero Configuration</h4>
-                  <p className="text-muted-foreground">You&apos;ll be able to start projects instantly with sensible defaults and automatic setup.</p>
+                  <p className="text-muted-foreground">Start projects instantly with sane but opinionated defaults</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Code className="h-5 w-5 text-muted-foreground mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold mb-2">CLI & Codegen</h4>
-                  <p className="text-muted-foreground">Focus on features, not boilerplate. We&apos;ll generate types, routes, and more automatically.</p>
+                  <p className="text-muted-foreground">Utilize developer tooling to automate away the noise and generate routes, types, etc</p>
                 </div>
               </div>
             </div>
@@ -49,22 +49,22 @@ export default function ValueProps() {
               <div className="p-2 bg-primary/10 rounded-lg">
                 <Layers className="h-6 w-6 text-primary" />
               </div>
-              <CardTitle className="text-xl">Modern Stack</CardTitle>
+              <CardTitle className="text-xl">A Modern, Type-Safe and Memory-Safe Stack</CardTitle>
             </div>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold mb-2">Rust Backend</h4>
-                <p className="text-sm text-muted-foreground">Type-safe, Memory-safe, Blazing fast APIs.</p>
+                <p className="text-sm text-muted-foreground">Type-safe and Memory-safe APIs with no sacrifices</p>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">JS Frontend</h4>
-                <p className="text-sm text-muted-foreground">Support React, Vue, and your favorite frameworks.</p>
+                <h4 className="font-semibold mb-2">Flexible Frontend</h4>
+                <p className="text-sm text-muted-foreground">Vue, React, HTML-over-the-wire, or bring your own</p>
               </div>
               <div>
                 <h4 className="font-semibold mb-2">Unified DX</h4>
-                <p className="text-sm text-muted-foreground">Full stack development with one utility.</p>
+                <p className="text-sm text-muted-foreground">Manage your enter stack, end-to-end, with a single tool</p>
               </div>
             </div>
           </CardContent>
@@ -77,23 +77,24 @@ export default function ValueProps() {
               <div className="p-2 bg-primary/10 rounded-lg">
                 <Sparkles className="h-6 w-6 text-primary" />
               </div>
-              <CardTitle className="text-xl">Developer Experience</CardTitle>
+              <CardTitle className="text-xl">Developer Experience is our #1 Priority</CardTitle>
             </div>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold mb-2">Live Reload & HMR</h4>
-                <p className="text-sm text-muted-foreground">Instant changes across your entire stack.</p>
+                <p className="text-sm text-muted-foreground">Just save a file to see changes across your whole stack during development</p>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">Type-safe Endpoints</h4>
-                <p className="text-sm text-muted-foreground">End-to-end type safety from database to UI.</p>
+                <h4 className="font-semibold mb-2">End-to-End Type-Safety</h4>
+                <p className="text-sm text-muted-foreground">Type safety from your database queries all the way to your frontend</p>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">File-based Routing</h4>
-                <p className="text-sm text-muted-foreground">Intuitive organization that will scale with your project.</p>
+                <h4 className="font-semibold mb-2">Intuitive Project Structure</h4>
+                <p className="text-sm text-muted-foreground">A bespoke layered architecture that makes it easy to build fullstack</p>
               </div>
+              <em className="text-sm text-muted-foreground">Note: These are planned features</em>
             </div>
           </CardContent>
         </Card>
@@ -105,7 +106,7 @@ export default function ValueProps() {
               <div className="p-2 bg-primary/10 rounded-lg">
                 <Rocket className="h-6 w-6 text-primary" />
               </div>
-              <CardTitle className="text-2xl">Planned for Production</CardTitle>
+              <CardTitle className="text-2xl">Ready for Production</CardTitle>
             </div>
           </CardHeader>
           <CardContent className="h-full">
@@ -116,11 +117,11 @@ export default function ValueProps() {
               </div>
               <div className="text-center">
                 <div className="text-5xl font-bold text-primary mb-1">🛡️</div>
-                <div className="text-sm text-muted-foreground">Type safety and reliability are core priorities</div>
+                <div className="text-sm text-muted-foreground">Maximum uptime and security are top priorities</div>
               </div>
               <div className="text-center">
                 <div className="text-5xl font-bold text-primary mb-1">🌐</div>
-                <div className="text-sm text-muted-foreground">Designed to scale with your project and team</div>
+                <div className="text-sm text-muted-foreground">A scalable, easy to deploy architecture</div>
               </div>
             </div>
           </CardContent>

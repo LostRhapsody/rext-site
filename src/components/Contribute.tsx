@@ -8,29 +8,29 @@ export default function Contribute() {
       icon: Palette,
       title: "Design",
       description: "Help shape Rext's visual identity and reach",
-      tasks: ["Website design", "Brand development", "Marketing materials", "UI/UX feedback"],
-      highlight: "Creative minds wanted"
+      tasks: ["Website design", "Brand development", "UI/UX feedback"],
+      highlight: "Iconography, Identity, Branding"
     },
     {
       icon: BookOpen,
       title: "Documentation",
-      description: "Make Rext accessible to developers everywhere",
-      tasks: ["Writing guides", "API documentation", "Tutorial creation", "Content editing"],
-      highlight: "Share your knowledge"
+      description: "Help make Rext easy and fun to learn",
+      tasks: ["Writing guides", "API documentation", "Tutorial creation"],
+      highlight: "Guides, Documentation, Tutorials"
     },
     {
       icon: TestTube,
       title: "Alpha Testing",
-      description: "Be among the first to build with Rext",
+      description: "Test early Rext features before release",
       tasks: ["Feature testing", "Bug reporting", "Performance feedback", "Real-world usage"],
-      highlight: "Early access"
+      highlight: "Early Access, Feedback"
     },
     {
       icon: Code,
       title: "Framework Development",
-      description: "Build the future of Rust web development",
-      tasks: ["Core framework", "CLI tooling", "Integrations", "Performance optimization"],
-      highlight: "Rust expertise valued"
+      description: "Build the Rext you want",
+      tasks: ["Core framework", "Tooling", "Integrations"],
+      highlight: "Core Library, TUI, CLI, Modules"
     }
   ];
 
@@ -39,12 +39,11 @@ export default function Contribute() {
       <div className="text-center mb-16">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 text-primary text-sm font-medium rounded-full mb-6">
           <Heart className="h-4 w-4" />
-          Join the Mission
+          Rext needs community
         </div>
         <h2 className="text-5xl font-bold mb-6">Help Build Rext</h2>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Join Rext&apos;s misson.<br />
-          Whether you&apos;re a designer, writer, tester, or developer, there&apos;s a place for you in our journey.
+          Rext is brand new and needs strong support to grow. Check out how you can contribute if Rext sounds like the missing piece of the Rust ecosystem you&apos;ve been waiting for.
         </p>
       </div>
 
@@ -92,12 +91,12 @@ export default function Contribute() {
           <CardContent className="p-8">
             <h3 className="text-2xl font-bold mb-4">Ready to get involved?</h3>
             <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-              Join a community of contributors who are passionate about building the future of web development with Rust.
+              Think Rust should power the web? Join a team enthusiastic about Rust and the modern web.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-8 py-4 h-auto" disabled>
                 <Heart className="mr-2 h-5 w-5" />
-                Join Community (Soon)
+                Join Community (Coming Soon)
               </Button>
               <Button size="lg" variant="outline" className="text-lg px-8 py-4 h-auto" disabled>
                 View Roadmap
