@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://rext.js.org'
+  const baseUrl = 'https://rextstack.org'
   
   return [
     {

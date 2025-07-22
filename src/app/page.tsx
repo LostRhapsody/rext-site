@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rext - The Future Rust Fullstack Framework",
     description: "The future of fullstack development: Rust performance meets modern web development. Currently in development.",
-    url: "https://rext.js.org",
+    url: "https://rextstack.org",
     images: [
       {
         url: "/og-home.png",
@@ -49,7 +49,7 @@ export default function Home() {
             "@type": "WebPage",
             "name": "Rext - The Future Rust Fullstack Framework",
             "description": "Rext is a planned Rust-powered framework that will deliver blazing performance and type safety for modern fullstack applications.",
-            "url": "https://rext.js.org",
+            "url": "https://rextstack.org",
             "mainEntity": {
               "@type": "SoftwareApplication",
               "name": "Rext",
@@ -73,7 +73,7 @@ export default function Home() {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://rext.js.org"
+                  "item": "https://rextstack.org"
                 }
               ]
             }

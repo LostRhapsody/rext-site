@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://rextstack.org"),
   title: "Rext - The Rust Fullstack Framework for Modern Web Development",
-  description: "Rext is the ultimate Rust fullstack framework combining Rust's performance with modern JavaScript. Build blazingly fast, type-safe web applications with zero configuration. The Next.js for Rust developers.",
+  description: "Rext - The Rust Fullstack Framework for Modern Web Development",
   keywords: [
     "Rust fullstack framework",
     "Rust web framework", 
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://rext.js.org",
+    url: "https://rextstack.org",
     siteName: "Rext",
     title: "Rext - The Rust Fullstack Framework",
     description: "Build modern fullstack apps at the speed of Rust. Zero configuration, type-safe, blazingly fast web development with Rust backend and JavaScript frontend.",
@@ -54,14 +54,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@rextjs",
-    creator: "@rextjs",
+    site: "@rextstack",
+    creator: "@rextstack",
     title: "Rext - The Rust Fullstack Framework",
     description: "Build modern fullstack apps at the speed of Rust. Zero configuration, type-safe, blazingly fast.",
     images: ["/twitter-image.png"],
   },
   alternates: {
-    canonical: "https://rext.js.org",
+    canonical: "https://rextstack.org",
   },
   other: {
     "theme-color": "#000000",
@@ -90,7 +90,7 @@ export default function RootLayout({
               "@type": "SoftwareApplication",
               "name": "Rext",
               "description": "The Rust fullstack framework for modern web development. Build blazingly fast, type-safe applications with zero configuration.",
-              "url": "https://rext.js.org",
+              "url": "https://rextstack.org",
               "applicationCategory": "DeveloperApplication",
               "operatingSystem": "Cross-platform",
               "programmingLanguage": ["Rust", "JavaScript", "TypeScript"],
